@@ -1,0 +1,9 @@
+/* prevent padding from stretching the page and cause scrolling bar */
+html {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    /* vh means viewport height, the full height of the entire window that you are in */
+    min-height: 100vh;
+} 
